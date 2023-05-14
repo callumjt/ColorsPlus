@@ -1,5 +1,3 @@
-@import "https://raw.githubusercontent.com/callumjt/ColorsPlus/main/colors.css";
-
 * {
     font-family: Sofia;
     padding: 0px;
@@ -16,7 +14,7 @@ html {
 
 @font-face {
     font-family:"Sofia";
-    src: url(/srcs/fonts/Sofia_Pro_Bold_Az.otf) format("opentype");
+    src: url(/ColorsPlus/srcs/fonts/Sofia_Pro_Bold_Az.otf) format("opentype");
 } 
 
 .main {
