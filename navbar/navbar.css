@@ -1,0 +1,72 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    color-scheme: dark;
+    text-decoration: none;
+}
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    background-color: #ff7b26;
+    backdrop-filter: blur(10px);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    user-select: none;
+}
+
+.left {
+    height: inherit;
+    width: 20%;
+    display: flex;
+    position: relative;
+    left: 1%;
+    justify-content: left;
+    align-items: center;
+    gap: 5px;
+}
+
+.right {
+    height: inherit;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    right: 25px;
+    position: absolute;
+    gap: 15px;
+}
+
+.button {
+    user-select: none;
+    height: inherit;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: none;
+    transition: all .3s;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.right a {
+    height: inherit;
+}
+
+.lightToggle {
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    transition: all .3s;
+    border-radius: 7px;
+}
+
+.leftText {
+    color: white;
+}

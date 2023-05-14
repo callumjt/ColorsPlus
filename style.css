@@ -1,0 +1,86 @@
+@import "https://raw.githubusercontent.com/callumjt/ColorsPlus/main/colors.css";
+
+* {
+    font-family: Sofia;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+@font-face {
+    font-family:"Sofia";
+    src: url(/srcs/fonts/Sofia_Pro_Bold_Az.otf) format("opentype");
+} 
+
+.main {
+    margin-top: 70px;
+    width: 100%;
+    position: absolute;
+}
+
+.mainText {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.explain {
+    margin-top: 10%;
+    position: relative;
+}
+
+.colorList {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    gap: 15px;
+}
+
+.aColor {
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: max-content;
+    gap: 10px;
+}
+
+.colorShow {
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: gray;
+    border-style: solid;
+    user-select: all;
+}
+
+.newBg {
+    width: 70px;
+    height: 30px;
+    background-color: #922724;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 99999px;
+    position: relative;
+    user-select: none;
+}
+
+.methods {
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 200%;
+}
