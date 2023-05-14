@@ -25,19 +25,19 @@ const navbarButton1 = document.createElement("div");
 navbarButton1.classList = "button";
 navbarButton1.textContent = "Home";
 const navbarButton1R = document.createElement("a");
-navbarButton1R.href = "/";
+navbarButton1R.href = "/ColorsPlus/";
 
 const navbarButton2 = document.createElement("div");
 navbarButton2.classList = "button";
 navbarButton2.textContent = "Colors";
 const navbarButton2R = document.createElement("a");
-navbarButton2R.href = "/list";
+navbarButton2R.href = "/ColorsPlus/list";
 
 const navbarButton3 = document.createElement("div");
 navbarButton3.classList = "button";
 navbarButton3.textContent = "Install";
 const navbarButton3R = document.createElement("a");
-navbarButton3R.href = "/install";
+navbarButton3R.href = "/ColorsPlus/install";
 
 navbarMain.appendChild(navbarRight);
 navbarRight.appendChild(navbarButton1R);
