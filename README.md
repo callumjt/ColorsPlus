@@ -1,4 +1,4 @@
-<img src="/srcs/imgs/icon.png" style="height: 64px; width: 64px;">
+<img src="/srcs/imgs/icon.png" style="height: 48px; width: 48px;">
 
 # colors+
 
